@@ -1,9 +1,12 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
+import os
+
+os.system("pip install roboflow ultralytics")
+
 from roboflow import Roboflow
 from ultralytics import YOLO
-import os
 from ultralytics import settings
 
 default_args = {
