@@ -3,7 +3,7 @@ from datetime import datetime
 from airflow import DAG
 
 with DAG(
-    dag_id="airflow-with-kubernetes",
+    dag_id="airflow",
     schedule=None,
     start_date=datetime.now(),
     catchup=False,
