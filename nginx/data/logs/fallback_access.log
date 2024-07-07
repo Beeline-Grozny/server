@@ -1,0 +1,2 @@
+[06/Jul/2024:21:52:45 +0000] 200 - GET http 192.168.1.50 "/" [Client 172.18.0.1] [Length 568] [Gzip 1.86] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+[06/Jul/2024:21:54:47 +0000] 304 - GET http 192.168.1.50 "/" [Client 172.18.0.1] [Length 0] [Gzip -] "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"

@@ -146,6 +146,12 @@ zookeeper-74d96f84bd-cnjj2      1/1     Running   0          16m
 kubectl port-forward kafka-broker-75d58df49b-tt69x 9092 -n kafka
 ```
 
+Если появляются проблемы с firewall:
+
+```bash
+kubectl port-forward --address 0.0.0.0 kafka-broker-6f6578c49f-2zlz8 9092 -n kafka
+```
+
 Эта команда делает порт`9092`этого модуля доступным за пределами кластера Minikube k8s по адресу`localhost:9092`.
 
 Чтобы легко отправлять и получать сообщения из Kafka, мы будем использовать инструмент командной строки[KCat](https://github.com/edenhill/kcat)(ранее Kafkacat). Чтобы создать сообщение и тему с именем`test`, мы запускаем следующую команду:

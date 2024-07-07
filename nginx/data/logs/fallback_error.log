@@ -1,0 +1,26 @@
+2024/07/06 21:52:46 [warn] 207#207: 512 worker_connections are not enough, reusing connections
+2024/07/06 21:52:46 [alert] 207#207: 512 worker_connections are not enough
+2024/07/06 21:52:46 [error] 208#208: *920 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.1.50", referrer: "http://192.168.1.50/"
+2024/07/06 21:53:42 [warn] 154#154: server name "http://192.168.1.50:5000/" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/06 21:54:38 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:38 [emerg] 154#154: still could not bind()
+2024/07/06 21:54:40 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: bind() to [::]:80 failed (98: Address already in use)
+2024/07/06 21:54:40 [emerg] 154#154: still could not bind()
